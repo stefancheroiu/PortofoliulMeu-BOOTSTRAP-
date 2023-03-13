@@ -1,0 +1,15 @@
+.navbar-logo { width: 50px; height: 50px; border-radius: 25%; }
+.bgImage { background-image: url("6.jpg"); background-size: cover; background-repeat: no-repeat; }
+.carousel-image { height: 80vh; }
+.carousel-image-overlay { position:absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6);}
+.link { text-decoration: none; color: black;}
+.link:hover { text-decoration: underline; font-size: 25px; }
+@keyframes example {
+    0%   { left:0px; top:0px; }
+    25%  { left:50px; top:0px; }
+    50%  { left:50px; top:50px; }
+    75%  { left:0px; top:50px; }
+    100% { left:0px; top:0px; }
+  }
+.h2 { position: relative; display: inline; font-family: 'Caveat', cursive; animation-name: example; animation-duration: 4s; animation-iteration-count: infinite; }
+.euImg { height: 250px; width: 250px; }
